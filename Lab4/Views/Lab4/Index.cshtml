@@ -1,0 +1,13 @@
+﻿@model System.DateTime
+@{ ViewData["Title"] = "Index";
+
+
+}
+<div class="bg-primary" style="padding:25px; border-radius:25px">
+    <h1>@ViewData["greeting"]</h1>
+</div>
+<h2>It is now @ViewData["clock"] on @ViewData["weekDay"], @ViewData["calendar"]</h2>
+
+<h5>There are @ViewData["daysLeft"] more days in @ViewData["year"]</h5>
+
+<a href="Lab4/Waffle"  class="btn btn-info" role="button">Generate Waffles</a>
